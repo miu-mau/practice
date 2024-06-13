@@ -15,26 +15,45 @@
 пример 1
 
 >python logwriter.py
+>
 >Выберите команду(parse, view или ext): parse
+>
 >Введите файл с логинами Apache: logs
+>
 >Выберите команду(parse, view или ext): view
+>
 >Введите дату или диапазон дат (YYYY-MM-DD или YYYY-MM-DD YYYY-MM-DD): 2004-07-28
+>
 >Введите метод (GET, POST, PUT, DELETE):
+>
 >Введите IP:
+>
 >Введите статус кода:
+>
 >(21, '11.0.0.1', '2004-07-28', 'POST', '/downloads.html', 200, 5120)
+>
 >(22, '10.0.0.2', '2004-07-28', 'POST', '/downloads.html', 200, 5120)
+>
 >Выберите команду(parse, view или ext): ext
 
 пример 2
 
 >python logwriter.py
+>
 >Выберите команду(parse, view или ext): view
+>
 >Введите дату или диапазон дат (YYYY-MM-DD или YYYY-MM-DD YYYY-MM-DD):
+>
 >Введите метод (GET, POST, PUT, DELETE):
+>
 >Введите IP:
+>
 >Введите статус кода:
+>
 >(1, '192.168.2.20', '2004-07-10', 'GET', '/cgi-bin/try/', 200, 3395)
+>
 >... # выводит все логи из базы данных
+>
 >(22, '10.0.0.2', '2004-07-28', 'POST', '/downloads.html', 200, 5120)
->>Выберите команду(parse, view или ext): ext
+>
+>Выберите команду(parse, view или ext): ext
