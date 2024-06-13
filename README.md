@@ -13,8 +13,7 @@
 Примеры работы:
 
 ---- пример 1
-
->python logwriter.py
+python logwriter.py
 Выберите команду(parse, view или ext): parse
 Введите файл с логинами Apache: logs
 Выберите команду(parse, view или ext): view
